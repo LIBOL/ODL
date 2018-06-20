@@ -1,0 +1,16 @@
+%YAML 1.2
+---
+learning_rate: 0.001
+optim: SGD
+batch_size: 1
+nb_epoch: 1 
+n_layers: 20
+hidden_num: 100
+activation: relu 
+loss_weight: ave
+adaptive_weight: False
+data: higgs
+hedge: False
+model: MLP
+momentum: 0.3
+log: momentum
