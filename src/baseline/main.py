@@ -13,7 +13,6 @@ from keras.optimizers import SGD, Adam, RMSprop
 from model import build_model, MyCallback
 from keras.callbacks import CSVLogger
 from data import load
-import pdb
 
 def build_data_dict(in_name, out_name, in_data, out_data):
     in_dict = dict()
