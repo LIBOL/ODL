@@ -5,7 +5,6 @@ from keras.layers import Dense, Activation, Input, Dropout, Highway
 from keras.optimizers import SGD, Adam
 from keras.callbacks import Callback
 import keras.backend as K
-import pdb
 import time
 def get_data(config):
     if config['data'] == 'syn8':
