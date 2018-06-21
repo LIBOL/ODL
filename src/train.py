@@ -39,10 +39,7 @@ class MyCallback(Callback):
         range_of_loss = max_loss - min_loss
         losses = [(loss-min_loss)/range_of_loss for loss in losses]
         alpha = [self.beta ** loss for loss in losses]
-        try:
-            alpha = [a * w for a, w in zip(alpha, self.weights)]
-        except ValueError:
-            pass
+        alpha = [a * w for a, w in zip(alpha, self.weights)]
 
         alpha = [ max(0.01, a) for a in alpha]
         M = sum(alpha)
