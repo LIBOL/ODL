@@ -1,7 +1,19 @@
 # Online Deep Learning: Learning Deep Neural Networks on the Fly
 An implementation of the Hedge Backpropagation(HBP) proposed in Online Deep Learning: Learning Deep Neural Networks on the Fly 
 
-IJCAI-ECAI-18
+@inproceedings{sahoo2018online,
+  title     = {Online Deep Learning: Learning Deep Neural Networks on the Fly},
+  author    = {Doyen Sahoo and Quang Pham and Jing Lu and Steven C. H. Hoi},
+  booktitle = {Proceedings of the Twenty-Seventh International Joint Conference on
+               Artificial Intelligence, {IJCAI-18}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},             
+  pages     = {2660--2666},
+  year      = {2018},
+  month     = {7},
+  doi       = {10.24963/ijcai.2018/369},
+  url       = {https://doi.org/10.24963/ijcai.2018/369},
+}
+
 
 Preprint: [https://arxiv.org/abs/1711.03705](https://arxiv.org/abs/1711.03705).
 
