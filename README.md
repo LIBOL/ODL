@@ -15,7 +15,7 @@ An implementation of the Hedge Backpropagation(HBP) proposed in Online Deep Lear
 }
 ```
 
-Link to publication: [PDF](https://www.ijcai.org/proceedings/2018/369).
+[Link](https://www.ijcai.org/proceedings/2018/369) to publication
 
 # Requirements and Installation
 - Theano 0.8.2
