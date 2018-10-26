@@ -41,5 +41,7 @@ cd src/baselines
 ./run.sh
 ```
 
+# Data sets
+The data used in our experiments are available at https://drive.google.com/drive/folders/1fNZHK2NYbgfz27PPdSSA6lZTkoFakH28?usp=sharing
 # Train HBP on your own data
 We provide a sample script in ```src/train.py``` to train HBP on a new dataset. Feel free to modify the code to suit your experiments.
