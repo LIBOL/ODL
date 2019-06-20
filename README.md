@@ -45,3 +45,6 @@ cd src/baselines
 The data used in our experiments are available at https://drive.google.com/drive/folders/1fNZHK2NYbgfz27PPdSSA6lZTkoFakH28?usp=sharing
 # Train HBP on your own data
 We provide a sample script in ```src/train.py``` to train HBP on a new dataset. Feel free to modify the code to suit your experiments.
+
+# Pytorch implementation
+This is an independent [pytorch implementation](https://github.com/alison-carrera/onn), please note that this is unofficial and not yet tested by us.
